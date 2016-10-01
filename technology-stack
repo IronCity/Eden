@@ -1,2 +1,9 @@
 FrontEnd
-  node.js -v 6.5.0​
+  node.js -v 6.5.0
+  
+BackEnd
+  python -v 2.7.12
+  java -v 1.8
+  
+Tools
+  maven -v 3.3.9
