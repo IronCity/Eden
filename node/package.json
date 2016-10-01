@@ -1,0 +1,22 @@
+{
+  "name": "eden",
+  "version": "1.0.0",
+  "description": "A bookmark SPA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiecheng2016/Eden.git"
+  },
+  "keywords": [
+    "SPA"
+  ],
+  "author": "Tiecheng, Nimj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiecheng2016/Eden/issues"
+  },
+  "homepage": "https://github.com/tiecheng2016/Eden#readme"
+}
