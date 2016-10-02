@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/tiecheng2016/Eden/issues"
   },
-  "homepage": "https://github.com/tiecheng2016/Eden#readme"
+  "homepage": "https://github.com/tiecheng2016/Eden#readme",
+  "devDependencies": {
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.3"
+  }
 }
