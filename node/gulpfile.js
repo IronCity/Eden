@@ -29,9 +29,8 @@ gulp.task('scripts', () => {
         .pipe(gulp.dest('./dist'))
 })
 
-gulp.task('default', () => {
-    gulp.run('lint', 'less', 'scripts')
+gulp.task('default', [ 'lint', 'less', 'scripts' ], () => {
     gulp.watch('./js/*.js', () => {
-        gulp.run('lint', 'less', 'scripts')
+        gulp.task('default', [ 'lint', 'less', 'scripts' ])
     })
 })
