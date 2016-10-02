@@ -3,6 +3,7 @@ const jshint = require('gulp-jshint')
 const concat = require('gulp-concat')
 const uglify = require('gulp-uglify')
 const rename = require('gulp-rename')
+const less = require('gulp-less')
 const path = require('path')
 
 gulp.task('lint', () => {
@@ -29,8 +30,8 @@ gulp.task('scripts', () => {
 })
 
 gulp.task('default', () => {
-    gulp.run('lint', 'sass', 'scripts')
+    gulp.run('lint', 'less', 'scripts')
     gulp.watch('./js/*.js', () => {
-        gulp.run('lint', 'sass', 'scripts')
+        gulp.run('lint', 'less', 'scripts')
     })
 })
