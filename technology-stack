@@ -7,3 +7,6 @@ BackEnd
   
 Tools
   maven -v 3.3.9
+  depend：
+    bower
+
